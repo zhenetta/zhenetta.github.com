@@ -142,6 +142,7 @@ body{
     padding:6px 12px;
     text-align:left;
 }
+#header .mobile-menu > a.btn:active + ul,
 #header .mobile-menu > a.btn:focus + ul,
 #header .mobile-menu ul:hover{
     display:block;
@@ -159,7 +160,7 @@ body{
     #header{
         position:relative;
         clear:both;
-        overflow:hidden;
+        height:88px;
     }
 }
 /*------------------------------banner------------------------------*/
